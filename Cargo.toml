@@ -19,6 +19,7 @@ rust-version = "1.61"
 [lib]
 name = "memchr"
 bench = false
+crate-type = ["lib", "dylib"]
 
 [features]
 default = ["std"]

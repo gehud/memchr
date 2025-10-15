@@ -170,7 +170,6 @@ Originally, this crate was literally just a safe wrapper function around the
 */
 
 #![deny(missing_docs)]
-#![no_std]
 // It's just not worth trying to squash all dead code warnings. Pretty
 // unfortunate IMO. Not really sure how to fix this other than to either
 // live with it or sprinkle a whole mess of `cfg` annotations everywhere.
